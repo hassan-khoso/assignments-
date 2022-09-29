@@ -1,0 +1,126 @@
+.banner {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../image/indoor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner1 {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../image/outdoor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 span {
+ color: aqua !important; 
+ font-family: cursive;
+}
+
+.DF {
+    display: flex !important;
+    margin-top: 100px !important;
+}
+
+.container {
+    position: relative !important;
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 12px !important;
+}
+
+.container .card {
+    position: relative !important;
+    max-width: 300px !important;
+    height: 215px !important;
+    background-color: #fff !important;
+    margin: 30px 10px !important;
+    padding: 20px 15px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5) !important;
+    transition: 0.3s ease-in-out !important;
+    border-radius: 15px !important;
+}
+
+.container .card:hover {
+    height: 320px !important;
+}
+
+
+.container .card .image {
+    display: flex !important;
+    position: relative !important;
+    /* width: 260px !important; */
+    height: 260px !important;
+    top: -60% !important;
+    /* left:2% !important; */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2) !important;
+    z-index: 1 !important;
+    border-radius: 12px !important;
+    align-items: center;
+}
+
+.container .card .image img {
+    width: 100% !important;
+    border-radius: 15px !important;
+}
+.container .card .content h3{
+    color: slategray;
+    font-weight: bolder;
+}
+.container .card .content {
+    position: relative !important;
+    top: -140px !important;
+    padding: 5px 10px !important;
+    color: #111 !important;
+    text-align: center !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    transition: 0.3s ease-in-out !important;
+
+}
+
+.container .card:hover .content {
+    margin-top: 30px !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    transition-delay: 0.2s !important;
+
+}
+
+.button1 {
+    border-radius: 5px;
+    border: none;
+    background-color: aqua ;
+    margin: 0%;
+}
+
+.button1 a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+
+}
+.button1 a:hover{
+     color: black ;
+}
+@media only screen and (max-width:  990px) {
+    .row{
+        flex-direction: column
+    }
+}
+
+@media only screen and (max-width: px) {
+    /* .col-lg-4{
+        width: 50% !important;
+    } */
+}
+
+ 
+ 

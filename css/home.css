@@ -1,0 +1,184 @@
+.banner {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(../image/jennie-clavel-G0zoYDFvUXQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.content {
+    width: 60%;
+    margin: 160px auto 0;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20%;
+    ;
+}
+
+.content h1 {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.content span {
+    color: aqua;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.click {
+    margin-left: 42%;
+    margin-top: 5%;
+}
+
+.btn1 {
+    width: 200px;
+    padding: 7px 0;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: bold;
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.btn1:hover {
+    color: aqua;
+    background-color: rgba(255, 255, 255, 0.432);
+}
+
+.outdoor h1 {
+    font-size: 3em;
+    color: rgb(20, 111, 168);
+    font-weight: bolder;
+    padding: 30px;
+    text-align: center;
+}
+
+.cards-list {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 30px auto;
+    width: 250px;
+    height: 250px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: 0.2s;
+    border: none;
+    border-radius: 58.25rem !important;
+}
+
+.card .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 20px;
+    border: none;
+}
+
+.card .card_image img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 20px;
+    filter: brightness(60%);
+}
+
+.card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -80px;
+    position: relative;
+    height: 40px;
+}
+
+.card-link {
+    text-decoration: none;
+    color: #fff;
+    margin: 0px;
+
+}
+
+.card-link:hover {
+    color: #fff;
+}
+
+.card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25)
+}
+
+.heading h3 {
+    font-size: 3em;
+    color: rgb(6, 40, 61);
+    font-weight: bolder;
+    padding-bottom: 5px;
+    text-align: center;
+
+}
+
+.heading h3 span {
+    font-weight: 400;
+    color: aqua;
+    font-family: cursive;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+    height: auto;
+}
+
+.contain .box { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contain .box .dream { 
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+
+}
+
+.contain .box .dream img {
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+
+}
+
+.btn-close:hover {
+    border: 0ch;
+}
+@media only screen and (max-width: 700px) {
+    .contain .box {
+     
+        display: block;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .contain .box .dream {
+       
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    
+    }
+}

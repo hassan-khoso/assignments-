@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Picnic Game</title>
+    <link rel="stylesheet" href="css/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        #nameErr {
+            color: red;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <header id="header"></header>
+        <div class="p-5">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb justify-content-center">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-white text-decoration-none">Home</a>
+                    </li>
+                    <li class="breadcrumb-item active text-white" aria-current="page"> Contact Us</li>
+                </ol>
+            </nav>
+            <h1 class="text-white text-center">Get in touch with us</h1>
+        </div>
+    </div>
+    <div>
+        <div class="container-box ">
+            <div class="card-box">
+                <div class="box">
+                    <h1><i class="fa-solid fa-phone"></i></h1>
+                    <h3><B>1-888-225-5322</B></h3>
+                </div>
+            </div>
+            <div class="card-box">
+                <div class="box">
+                    <h1><i class="fa-solid fa-envelope"></i></h1>
+                    <h3><B>support@pgpk.com</B></h3>
+                </div>
+            </div>
+            <div class="card-box">
+                <div class="box">
+                    <h1><i class="fa-solid fa-location-dot"></i></h1>
+                    <h3><B>45 L Street NE Washington, DC 20004</B></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container1">
+        <div class="left">
+            <img src="image/austin-distel-97HfVpyNR1M-unsplash.jpg" alt="..." width="80%" class="img">
+        </div>
+        <div class="right">
+            <h2>Have same Question?</h2>
+            <form>
+
+                <input type="text" id="name" class="field" placeholder="your Name" required>
+                <span id="nameErr">Fill Name</span>
+                <input type="email" id="email" class="field" placeholder="your Email">
+                <input type="text" id="phone" class="field" placeholder="your Phone">
+                <textarea id="msg" class="field area" placeholder="Message"></textarea>
+                <input type="submit" value="sent message" class="btn1" onclick="message()">
+            </form>
+        </diV>
+    </div>
+    <div>
+        <div class="map" id="gps">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.8872997390818!2d-77.00967638524611!3d38.903692454179335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b81f77f74109%3A0x82dd501e565105b0!2s45%20L%20St%20NE%2C%20Washington%2C%20DC%2020002%2C%20USA!5e0!3m2!1sen!2s!4v1663008735852!5m2!1sen!2s"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+    <footer id="footer"></footer>
+</body>
+<script src="js/header.js"></script>
+<script src="js/footer.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="jquery-3.6.0.min.js"></script>
+<script src="../Picnic game/css/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#contact").css("background-color", "aqua")
+        $("#contact").css("color", " rgb(6, 40, 61)")
+    })
+</script>
+<script>
+    function message() {
+        var name = document.getElementById("name").value;
+        var nameErr = document.getElementById("nameErr");
+        var email = document.getElementById("email").value;
+        var phone = document.getElementById("phone").value;
+        var msg = document.getElementById("msg")
+
+    }
+</script>
+
+</html>

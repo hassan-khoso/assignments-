@@ -1,0 +1,143 @@
+.collapse {
+    justify-content: end;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration-color: #fff;
+}
+
+.logo span {
+    color: aqua;
+    font-weight: bolder;
+    font-family: cursive;
+}
+.logo:hover{
+color: #fff;
+}
+.para {
+    color: #fff;
+}
+
+.navbar ul li:hover,
+.navbar ul li:focus,
+.navbar ul li:active {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0%;
+
+}
+
+.navbar ul li {
+    position: relative;
+
+    margin: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px;
+    color: white;
+    display: block;
+    font-weight: bold;
+
+}
+
+.navbar ul li a:hover {
+    background-color: rgb(20, 111, 168);
+    border-radius: 2px;
+}
+
+#menu {
+    background-color: rgba(48, 48, 48, 0.123);
+    border: 1ch;
+}
+
+#menu :hover {
+    background-color: rgb(20, 111, 168);
+    border-radius: 2px;
+    color: white;
+}
+
+/* footer */
+ 
+.footer-card {
+    display: flex;
+    width: 100%; background-color: rgb(6, 40, 61);
+    justify-content: center;
+}
+
+.items {
+    
+    margin-top: 21px;
+    color: white;
+    width: 20%; 
+    padding-left: 4%;
+}
+  
+.link2 {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin: 20%;
+}
+
+.bar2 {
+    margin: 10px;
+    margin-right: 10px;
+}
+
+.link3 {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+
+}
+
+.link3:hover {
+    transition: 1s;
+    text-decoration: underline;
+    color: white;
+}
+
+.copy {
+    background-color: black;
+    color: rgb(117, 117, 117);
+    text-align: center;
+    margin-top: 0%;
+}
+
+@media only screen and (max-width: 700px) {
+    .footer-card {
+        display: block;
+        width: 100%; background-color: rgb(6, 40, 61);
+        justify-content: center;
+    }
+    .items {
+        width: 100%; 
+        padding-left: 4%;
+        margin-top: 0%;
+    }
+    .copy {
+      
+        margin-top: 0%;
+    }
+}
+@media only screen and (min-width: 700px) {
+    .items {
+        width: 30%; }
+        
+.bar2 {
+    margin: 0px;
+    margin-right: 10px;
+}
+}
